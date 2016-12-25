@@ -1,0 +1,80 @@
+
+    /*char arr[100];
+    for(i=0; i<100; i++)
+        arr[i] = ' ';
+    cout<<"Enter the elements of the tree assuming complete tree.\nEnter space where no element is present.\nEnter newline to end.\n";
+    for(i=1; arr[i]!='\n'; i++)
+        cin>>arr[i];*/
+
+   /* struct node *par;
+    for(i=1; arr[i]!='\n' && arr[i]!=' '; i*=2)
+    {
+        struct node *tree = new node;
+        struct node1 *tree = new node;
+        struct node2 *tree = new node;
+        //if(arr[i]!=' ' && arr[i]!='\n')
+        //{
+        if(i==1)
+        {
+            tree->data = arr[i];
+            //par->left = tree;
+            tree->right = NULL;
+            tree->left = NULL;
+            root = tree;
+            par = root;
+        }
+        else
+        {
+            tree1->data = arr[i];
+            tree2->data = arr[i+1];
+            par->left = tree1;
+            par->right = tree2;
+            tree1->right = NULL;
+            tree1->left = NULL;
+            tree2->right = NULL;
+            tree2->left = NULL;
+            par = par->left;
+        }
+
+        //}
+
+    }
+
+    for(int k=1; arr[k]!='\n' && arr[k]!=' '; k*=2)
+    {
+        for(i=k; i>0; i--)
+    {
+
+        //if(arr[i]!=' ' && arr[i]!='\n')
+        //{
+        if(i==1)
+        {
+            struct node *tree = new node;
+            tree->data = arr[i];
+            //par->left = tree;
+            tree->right = NULL;
+            tree->left = NULL;
+            root = tree;
+            par = root;
+        }
+        else
+        {
+            struct node1 *tree = new node;
+            struct node2 *tree = new node;
+            tree1->data = arr[i];
+            tree2->data = arr[i+1];
+            par->left = tree1;
+            par->right = tree2;
+            tree1->right = NULL;
+            tree1->left = NULL;
+            tree2->right = NULL;
+            tree2->left = NULL;
+            par = par->left;
+        }
+
+        //}
+
+    }
+    }
+
+        */

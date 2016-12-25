@@ -1,0 +1,26 @@
+
+    char arr[100];
+    for(i=0; i<100; i++)
+        arr[i] = ' ';
+    cout<<"Enter the elements of the tree assuming complete tree.\nEnter space where no element is present.\nEnter newline to end.\n";
+    for(i=1; arr[i]!='\n'; i++)
+{
+        cin>>arr[i];
+	if(arr[i]!=' ')
+	tree[i]->data = arr[i];
+	else
+	continue;
+	if(i==1)
+{
+	root = tree;
+	ptr=tree[i];
+}
+	else
+	{
+		if(i%2==0)
+		ptr->left = tree[i];
+		else
+		ptr->right = tree[i];
+		ptr = tree[i];
+	} 
+}
